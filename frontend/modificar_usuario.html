@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="txt-usuario">Usuario</label>
+            <input type="text" id="txt-usuario">
+        </div>
+        
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"/>
+        
+        <label for="apellidos">Apellido</label>
+        <input type="text" name="apellidos" id="apellido1">
+
+        <label for="apellidos">Apellido</label>
+        <input type="text" name="apellidos" id="apellido2">
+
+        <label for="mensualidad">Mensualidad</label>
+        <input type="text" name="apellidos" id="mensualidad">
+
+        <div>
+            <label for="">Estado</label>
+            <select name="" id="slt-estado">
+                <option value="">Seleccione un estado</option>
+                <option value="Activo">Activo</option>
+                <option value="Inactivo">Inactivo</option>
+            </select>
+        </div>
+        <button type="button" id="btn-registrar">Actualizar</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script src="js/ejercicio.js"></script>
+    <script src="js/servicios.js"></script>
+    <script src="js/gestor.js"></script>
+    <script src="js/modificar-ejercicio.js"></script>
+</body>
+</html>
